@@ -1,0 +1,46 @@
+theme: null
+
+title: Dive Forward Pickleball
+tagline: Forward Together
+description: >-
+  Forward Together through purposeful drilling, modern coaching & a
+  supportive community.
+email: forward.pickleball.org@gmail.com
+address: Kanata, Ontario
+baseurl: ""
+url: "https://forwardpickleballorg-art.github.io"
+
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+navigation:
+  - title: Home
+    url: /
+  - title: Blog
+    url: /blog/
+  - title: Coaching
+    url: /coaching/
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
