@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DKH525918D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DKH525918D');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Master the Return: How to Hit Deeper, More Effective Returns</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --court: #1D4466;     /* playing surface */
+    --court-deep: #142F48;
+    --kitchen: #3F7D5C;   /* non-volley zone */
+    --ball: #D9EA4E;      /* optic yellow */
+    --line: #F7F8F3;      /* court lines / paper */
+    --ink: #1B2632;
+    --muted: #55616E;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--line);
+    color: var(--ink);
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 1.125rem;
+    line-height: 1.7;
+  }
+  h1, h2, h3, .meta, .callout-value { font-family: "Bricolage Grotesque", system-ui, sans-serif; }
+
+  .back-link {
+    display: inline-block;
+    font-family: "Bricolage Grotesque", system-ui, sans-serif;
+    font-size: .95rem; font-weight: 700;
+    color: var(--line); text-decoration: none;
+    border: 1px solid rgba(247,248,243,.4); border-radius: 999px;
+    padding: .35rem 1rem; margin-bottom: 1.25rem;
+    transition: background .15s ease;
+  }
+  .back-link:hover { background: rgba(247,248,243,.12); }
+
+  /* Hero: top-down court with the deep target zone highlighted */
+  .hero {
+    background: var(--court);
+    color: var(--line);
+    padding: 3.5rem 1.5rem 0;
+  }
+  .hero-inner { max-width: 46rem; margin: 0 auto; }
+  .meta { font-size: .95rem; color: #BFD0DE; margin: 0 0 1rem; }
+  h1 {
+    font-size: clamp(2.2rem, 6vw, 3.6rem);
+    line-height: 1.05;
+    font-weight: 800;
+    letter-spacing: -.02em;
+    margin: 0 0 1.25rem;
+  }
+  .dek { font-size: 1.2rem; color: #DCE6EE; max-width: 38rem; margin: 0 0 2.5rem; }
+  .court { display: block; width: 100%; height: auto; }
+  .ball-path { stroke-dasharray: 6 8; }
+  @media (prefers-reduced-motion: no-preference) {
+    .ball-path { animation: travel 2.4s ease-out .3s both; stroke-dashoffset: 400; }
+    .ball { animation: land .6s ease-out 2.4s both; }
+    @keyframes travel { to { stroke-dashoffset: 0; } }
+    @keyframes land { from { opacity: 0; transform: scale(.3); } to { opacity: 1; transform: scale(1); } }
+  }
+  .ball { transform-box: fill-box; transform-origin: center; }
+
+  /* Article */
+  main { max-width: 42rem; margin: 0 auto; padding: 3rem 1.5rem 4rem; }
+  h2 {
+    display: flex; align-items: center; gap: .75rem;
+    font-size: clamp(1.6rem, 4vw, 2.1rem);
+    line-height: 1.15;
+    font-weight: 700;
+    margin: 3.5rem 0 .75rem;
+    color: var(--court-deep);
+  }
+  h2:first-of-type { margin-top: 0; }
+  .h2-icon {
+    flex: none; width: 2.75rem; height: 2.75rem;
+    border-radius: 50%; background: var(--ball);
+    display: grid; place-items: center;
+  }
+  .section-lede { color: var(--muted); margin: 0 0 2rem; }
+  main p { margin: 0 0 1.25rem; }
+  main strong { color: var(--court-deep); }
+
+  .tip {
+    display: grid;
+    grid-template-columns: 2.5rem 1fr;
+    gap: 0 1.1rem;
+    padding: 1.4rem 0;
+    border-top: 2px solid #E2E6DC;
+  }
+  .tip svg { width: 2.5rem; height: 2.5rem; color: var(--kitchen); }
+  h3 { font-size: 1.2rem; font-weight: 700; margin: .25rem 0 .35rem; color: var(--ink); }
+  .tip p { margin: 0; }
+
+  .callout {
+    margin: 3.5rem 0 0;
+    padding: 1.75rem;
+    background: var(--kitchen);
+    color: var(--line);
+    border-radius: 6px;
+  }
+  .callout p { margin: 0; font-size: 1.15rem; }
+  .callout-value { font-size: 1.5rem; font-weight: 800; color: var(--ball); display: block; margin-bottom: .4rem; }
+
+  footer { text-align: center; color: var(--muted); font-size: .95rem; padding: 0 1.5rem 3rem; }
+
+  a:focus-visible { outline: 3px solid var(--ball); outline-offset: 3px; }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <a class="back-link" href="index.html">← All drills</a>
+    <p class="meta">Pickleball skills · Returns</p>
+    <h1>Master the return: how to hit deeper, more effective returns</h1>
+    <p class="dek">The serve is just the start — the return is your first real chance to dictate the point. Here's how to push it deep and take control.</p>
+
+    <!-- Full court, top-down. The deep zone (3–5 ft before the opponent's
+         baseline) is highlighted; the return arcs over the net and lands there. -->
+    <svg class="court" viewBox="0 0 720 360" role="img" aria-label="Top-down pickleball court with the deep zone highlighted near the opponent's baseline. A dotted line shows the return travelling from your baseline, over the net, and landing in the deep zone.">
+      <rect x="0" y="0" width="720" height="360" fill="#1D4466"/>
+      <!-- Kitchens -->
+      <rect x="258" y="30" width="102" height="290" fill="#3F7D5C"/>
+      <rect x="360" y="30" width="102" height="290" fill="#3F7D5C"/>
+      <!-- Deep zone: 3–5 ft before the opponent's baseline -->
+      <rect x="600" y="30" width="80" height="290" fill="#D9EA4E" opacity="0.30"/>
+      <rect x="600" y="30" width="80" height="290" fill="none" stroke="#D9EA4E" stroke-width="2" stroke-dasharray="8 6"/>
+      <!-- Red circle markers separating the deep zone -->
+      <g fill="#E63946">
+        <circle cx="600" cy="90" r="9"/>
+        <circle cx="600" cy="175" r="9"/>
+        <circle cx="600" cy="260" r="9"/>
+      </g>
+      <!-- Outer lines -->
+      <rect x="40" y="30" width="640" height="290" fill="none" stroke="#F7F8F3" stroke-width="3"/>
+      <!-- Kitchen lines -->
+      <line x1="258" y1="30" x2="258" y2="320" stroke="#F7F8F3" stroke-width="3"/>
+      <line x1="462" y1="30" x2="462" y2="320" stroke="#F7F8F3" stroke-width="3"/>
+      <!-- Centre lines in the service courts -->
+      <line x1="40" y1="175" x2="258" y2="175" stroke="#F7F8F3" stroke-width="3"/>
+      <line x1="462" y1="175" x2="680" y2="175" stroke="#F7F8F3" stroke-width="3"/>
+      <!-- Net -->
+      <line x1="360" y1="16" x2="360" y2="334" stroke="#F7F8F3" stroke-width="6"/>
+      <line x1="360" y1="16" x2="360" y2="334" stroke="#142F48" stroke-width="2" stroke-dasharray="3 3"/>
+      <!-- Labels -->
+      <g font-family="Bricolage Grotesque, sans-serif" font-size="14">
+        <text x="360" y="11" text-anchor="middle" fill="#BFD0DE">Net</text>
+        <text x="640" y="168" text-anchor="middle" fill="#142F48" font-weight="700">Deep</text>
+        <text x="640" y="186" text-anchor="middle" fill="#142F48" font-weight="700">Zone</text>
+        <text x="44" y="352" fill="#BFD0DE">Your baseline</text>
+        <text x="676" y="352" text-anchor="end" fill="#BFD0DE">Opponent's baseline</text>
+      </g>
+      <!-- Return trajectory: your baseline → over the net → deep zone -->
+      <circle cx="70" cy="262" r="5" fill="#D9EA4E" opacity=".6"/>
+      <path class="ball-path" d="M70 262 Q 300 60 640 150" fill="none" stroke="#F7F8F3" stroke-width="3" stroke-linecap="round"/>
+      <circle class="ball" cx="640" cy="150" r="10" fill="#D9EA4E"/>
+    </svg>
+  </div>
+</header>
+
+<main>
+  <article>
+
+    <p>In pickleball, the serve is just the start. The <strong>return of serve</strong> is your first real opportunity to dictate the pace of the point. If you find yourself consistently hitting shallow returns that allow your opponents to attack, it's time to upgrade your approach.</p>
+
+    <h2>
+      <span class="h2-icon" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#142F48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="0.5" fill="#142F48"/></svg>
+      </span>
+      Why depth matters
+    </h2>
+    <p class="section-lede">A deep return flips the pressure back onto the serving team.</p>
+    <p>A deep, high-quality return forces your opponent to hit their <strong>third shot</strong> from behind the baseline, often while they are still moving. By pushing them back, you neutralize their advantage and give your team more time to establish a solid position at the <em>kitchen line</em>.</p>
+
+    <h2>
+      <span class="h2-icon" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#142F48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17l6-6-6-6"/><path d="M12 17l6-6-6-6"/></svg>
+      </span>
+      Keys to a quality return
+    </h2>
+    <p class="section-lede">Four fundamentals that turn a defensive return into an offensive weapon.</p>
+
+    <div class="tip">
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="20" cy="20" r="16"/>
+        <path d="M20 12v8l6 4"/>
+      </svg>
+      <div>
+        <h3>Early preparation</h3>
+        <p>Don't wait for the ball to cross the net. Get your paddle into the ready position as soon as you see the trajectory of the serve.</p>
+      </div>
+    </div>
+
+    <div class="tip">
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M8 28c4-8 8-12 12-12s8 4 12 12"/>
+        <path d="M20 16v-8"/>
+        <path d="M16 12l4-4 4 4"/>
+      </svg>
+      <div>
+        <h3>Controlled power</h3>
+        <p>Instead of swinging wildly, use a compact, consistent stroke. Focus on making solid contact in front of your body.</p>
+      </div>
+    </div>
+
+    <div class="tip">
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <rect x="8" y="8" width="24" height="24" rx="2"/>
+        <circle cx="14" cy="14" r="2.5" fill="#D9EA4E" stroke="#D9EA4E"/>
+        <circle cx="26" cy="26" r="2.5" fill="#D9EA4E" stroke="#D9EA4E"/>
+      </svg>
+      <div>
+        <h3>Use the full court</h3>
+        <p>A deep return down the middle is the safe, high-percentage play — make that your default. Once it's reliable, stretch them wide and deep to open up tougher angles, but never trade depth for angle.</p>
+      </div>
+    </div>
+
+    <div class="tip">
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M6 32c8 0 10-18 20-20"/>
+        <path d="M22 8l4 4-4 4"/>
+        <circle cx="32" cy="30" r="3" fill="#D9EA4E" stroke="#D9EA4E"/>
+      </svg>
+      <div>
+        <h3>Follow through</h3>
+        <p>Complete your swing to ensure the ball carries depth rather than floating in the air.</p>
+      </div>
+    </div>
+
+    <h2>
+      <span class="h2-icon" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#142F48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>
+      </span>
+      Visualize your target
+    </h2>
+    <p class="section-lede">Pick a zone, not just a direction.</p>
+    <p>Imagine the court divided into zones. Your goal is to keep the ball in the <strong>Deep Zone</strong> — the 3–5 feet closest to the baseline, highlighted in the diagram above. A high-arching trajectory that lands consistently in this area turns no-man's-land into your territory: the serving team has to play their third shot on the move, from deep.</p>
+
+    <aside class="callout">
+      <span class="callout-value">Depth over speed</span>
+      <p>By focusing on depth over pure speed, you turn a defensive return into an offensive weapon that sets your team up for success at the net.</p>
+    </aside>
+
+  </article>
+</main>
+
+<footer>Forward Pickleball · Drill Library</footer>
+
+
+<p style="text-align:center;font-size:0.85rem;color:#55616E;padding:0 1rem 1.5rem;line-height:1.9;">#Pickleball #PickleballTraining #PickleballTips #PickleballCoaching #PickleballCoach #PickleballDrills #PickleballTechnique #PickleballFootwork #PickleballStrategy #PickleballSkills #LearnPickleball #PickleballBeginner #ImproveYourGame #PickleballLife #PickleballCommunity #PickleballPlayers #PickleballCanada #OttawaPickleball #ActiveLiving #SportsTraining #ReturnOfServe #ServeReturn #DeepReturns</p>
+</body>
+</html>

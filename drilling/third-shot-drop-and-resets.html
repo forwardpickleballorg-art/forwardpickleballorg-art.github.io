@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DKH525918D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DKH525918D');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leveling Up Your Pickleball Game: Mastering the Third Shot Drop and Resets</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --court: #1D4466;     /* playing surface */
+    --court-deep: #142F48;
+    --kitchen: #3F7D5C;   /* non-volley zone */
+    --ball: #D9EA4E;      /* optic yellow */
+    --line: #F7F8F3;      /* court lines / paper */
+    --ink: #1B2632;
+    --muted: #55616E;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--line);
+    color: var(--ink);
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 1.125rem;
+    line-height: 1.7;
+  }
+  h1, h2, h3, .meta, .callout-value { font-family: "Bricolage Grotesque", system-ui, sans-serif; }
+
+  /* Hero: a top-down slice of court with the drop landing in the kitchen */
+  .hero {
+    background: var(--court);
+    color: var(--line);
+    padding: 3.5rem 1.5rem 0;
+  }
+  .hero-inner { max-width: 46rem; margin: 0 auto; }
+  .meta { font-size: .95rem; color: #BFD0DE; margin: 0 0 1rem; }
+  h1 {
+    font-size: clamp(2.2rem, 6vw, 3.6rem);
+    line-height: 1.05;
+    font-weight: 800;
+    letter-spacing: -.02em;
+    margin: 0 0 1.25rem;
+  }
+  .dek { font-size: 1.2rem; color: #DCE6EE; max-width: 38rem; margin: 0 0 2.5rem; }
+  .court { display: block; width: 100%; height: auto; }
+  .ball-path { stroke-dasharray: 6 8; }
+  @media (prefers-reduced-motion: no-preference) {
+    .ball-path { animation: travel 2.4s ease-out .3s both; stroke-dashoffset: 600; }
+    .ball { animation: land .6s ease-out 2.4s both; }
+    @keyframes travel { to { stroke-dashoffset: 0; } }
+    @keyframes land { from { opacity: 0; transform: scale(.3); } to { opacity: 1; transform: scale(1); } }
+  }
+  .ball { transform-box: fill-box; transform-origin: center; }
+
+  /* Article */
+  main { max-width: 42rem; margin: 0 auto; padding: 3rem 1.5rem 4rem; }
+  h2 {
+    display: flex; align-items: center; gap: .75rem;
+    font-size: clamp(1.6rem, 4vw, 2.1rem);
+    line-height: 1.15;
+    font-weight: 700;
+    margin: 3.5rem 0 .75rem;
+    color: var(--court-deep);
+  }
+  h2:first-of-type { margin-top: 0; }
+  .h2-icon {
+    flex: none; width: 2.75rem; height: 2.75rem;
+    border-radius: 50%; background: var(--ball);
+    display: grid; place-items: center;
+  }
+  .section-lede { color: var(--muted); margin: 0 0 2rem; }
+
+  .tip {
+    display: grid;
+    grid-template-columns: 2.5rem 1fr;
+    gap: 0 1.1rem;
+    padding: 1.4rem 0;
+    border-top: 2px solid #E2E6DC;
+  }
+  .tip svg { width: 2.5rem; height: 2.5rem; color: var(--kitchen); }
+  h3 { font-size: 1.2rem; font-weight: 700; margin: .25rem 0 .35rem; color: var(--ink); }
+  .tip p { margin: 0; }
+  .tip-figure { margin: 1.25rem 0 0; }
+  .tip-figure img { display: block; width: 100%; max-width: 32rem; height: auto; border-radius: 6px; }
+  .tip-figure figcaption { font-size: .95rem; color: var(--muted); margin-top: .5rem; }
+
+  /* Grip pressure meter */
+  .meter { display: flex; gap: 4px; margin: .9rem 0 .35rem; max-width: 20rem; }
+  .meter span {
+    flex: 1; height: .7rem; border-radius: 2px; background: #DADFD3;
+  }
+  .meter span.on { background: var(--kitchen); }
+  .meter-label { font-family: "Bricolage Grotesque", sans-serif; font-size: .9rem; color: var(--muted); }
+
+  .callout {
+    margin: 3.5rem 0 0;
+    padding: 1.75rem;
+    background: var(--kitchen);
+    color: var(--line);
+    border-radius: 6px;
+  }
+  .callout p { margin: 0; font-size: 1.15rem; }
+  .callout-value { font-size: 1.5rem; font-weight: 800; color: var(--ball); display: block; margin-bottom: .4rem; }
+
+  footer { text-align: center; color: var(--muted); font-size: .95rem; padding: 0 1.5rem 3rem; }
+
+  a:focus-visible { outline: 3px solid var(--ball); outline-offset: 3px; }
+  .back-link {
+    display: inline-block;
+    font-family: "Bricolage Grotesque", system-ui, sans-serif;
+    font-size: .95rem; font-weight: 700;
+    color: var(--line); text-decoration: none;
+    border: 1px solid rgba(247,248,243,.4); border-radius: 999px;
+    padding: .35rem 1rem; margin-bottom: 1.25rem;
+    transition: background .15s ease;
+  }
+  .back-link:hover { background: rgba(247,248,243,.12); }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <a class="back-link" href="index.html">← All drills</a>
+    <p class="meta">Pickleball skills · Drills</p>
+    <h1>Leveling up your pickleball game: mastering the third shot drop and resets</h1>
+    <p class="dek">To move past the 4.0 level, refining two crucial areas of your game makes all the difference: the topspin forehand third shot drop and resets.</p>
+
+    <!-- Full court, top-down, to scale (44 ft x 20 ft, 7 ft kitchens).
+         Net in the middle with a kitchen on each side. The drop starts
+         at your baseline, crosses the net, and lands in the opponent's kitchen. -->
+    <svg class="court" viewBox="0 0 720 360" role="img" aria-label="Top-down pickleball court with a kitchen on each side of the net. A dotted line shows the ball travelling from your baseline, over the net, and landing in the opponent's kitchen.">
+      <rect x="0" y="0" width="720" height="360" fill="#1D4466"/>
+      <!-- Kitchens -->
+      <rect x="258" y="30" width="102" height="290" fill="#3F7D5C"/>
+      <rect x="360" y="30" width="102" height="290" fill="#3F7D5C"/>
+      <!-- Outer lines -->
+      <rect x="40" y="30" width="640" height="290" fill="none" stroke="#F7F8F3" stroke-width="3"/>
+      <!-- Kitchen lines -->
+      <line x1="258" y1="30" x2="258" y2="320" stroke="#F7F8F3" stroke-width="3"/>
+      <line x1="462" y1="30" x2="462" y2="320" stroke="#F7F8F3" stroke-width="3"/>
+      <!-- Centre lines in the service courts -->
+      <line x1="40" y1="175" x2="258" y2="175" stroke="#F7F8F3" stroke-width="3"/>
+      <line x1="462" y1="175" x2="680" y2="175" stroke="#F7F8F3" stroke-width="3"/>
+      <!-- Net -->
+      <line x1="360" y1="16" x2="360" y2="334" stroke="#F7F8F3" stroke-width="6"/>
+      <line x1="360" y1="16" x2="360" y2="334" stroke="#142F48" stroke-width="2" stroke-dasharray="3 3"/>
+      <!-- Labels -->
+      <g font-family="Bricolage Grotesque, sans-serif" font-size="14">
+        <text x="360" y="11" text-anchor="middle" fill="#BFD0DE">Net</text>
+        <text x="309" y="288" text-anchor="middle" fill="#F7F8F3">Your</text>
+        <text x="309" y="306" text-anchor="middle" fill="#F7F8F3">kitchen</text>
+        <text x="411" y="288" text-anchor="middle" fill="#F7F8F3">Opponent's</text>
+        <text x="411" y="306" text-anchor="middle" fill="#F7F8F3">kitchen</text>
+        <text x="44" y="352" fill="#BFD0DE">Your baseline</text>
+        <text x="676" y="352" text-anchor="end" fill="#BFD0DE">Opponent's baseline</text>
+      </g>
+      <!-- Ball path: your baseline → over the net → opponent's kitchen -->
+      <circle cx="70" cy="262" r="5" fill="#D9EA4E" opacity=".6"/>
+      <path class="ball-path" d="M70 262 Q 240 40 418 128" fill="none" stroke="#D9EA4E" stroke-width="3" stroke-linecap="round"/>
+      <circle class="ball" cx="418" cy="128" r="10" fill="#D9EA4E"/>
+    </svg>
+  </div>
+</header>
+
+<main>
+  <article>
+
+    <h2>
+      <span class="h2-icon" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#142F48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20c2-9 8-14 16-15"/><path d="M15 4h5v5"/></svg>
+      </span>
+      The topspin forehand third shot drop
+    </h2>
+    <p class="section-lede">This shot is about turning a strength into a dangerous weapon. The goal is to consistently land the ball in the kitchen with spin and shape.</p>
+
+    <div class="tip">
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">
+        <circle cx="20" cy="20" r="16"/>
+        <path d="M20 36 A16 16 0 0 1 20 4" stroke="#D9EA4E" stroke-width="4"/>
+        <path d="M20 4l-3 3M20 4l3 3"/>
+        <circle cx="20" cy="20" r="1.8" fill="currentColor"/>
+      </svg>
+      <div>
+        <h3>The clock technique</h3>
+        <p>Visualize the ball like a clock. Start your swing at 6:00 and brush up through the ball toward 12:00. This upward motion is powered by your shoulder and forearm.</p>
+      </div>
+    </div>
+
+    <div class="tip">
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <ellipse cx="20" cy="14" rx="10" ry="11"/>
+        <path d="M20 25v11"/>
+        <path d="M14 29c2 1.5 10 1.5 12 0"/>
+      </svg>
+      <div>
+        <h3>Grip pressure</h3>
+        <p>Many players struggle with ball control because they hold the paddle too tightly. Keep your grip pressure at a relaxed 3 or 4 out of 10. A softer grip helps take the pace off and drops the ball precisely into the kitchen.</p>
+        <div class="meter" role="img" aria-label="Grip pressure scale: 3 to 4 out of 10">
+          <span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span>
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div class="meter-label">Target: 3–4 out of 10</div>
+      </div>
+    </div>
+
+    <div class="tip">
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="20" cy="27" r="6"/>
+        <path d="M20 17V5"/>
+        <path d="M15 10l5-5 5 5"/>
+      </svg>
+      <div>
+        <h3>Practice</h3>
+        <p>Start by self-feeding balls to get the feel of that upward brushing motion before moving into full drills.</p>
+      </div>
+    </div>
+
+    <h2>
+      <span class="h2-icon" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#142F48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><path d="M5 12h14"/><circle cx="12" cy="12" r="4"/></svg>
+      </span>
+      Mastering resets
+    </h2>
+    <p class="section-lede">Resets are essential for neutralizing your opponent's pressure, especially when you are in the transition zone.</p>
+
+    <div class="tip">
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M4 34h32"/>
+        <path d="M20 6v20"/>
+        <path d="M13 19l7 7 7-7"/>
+      </svg>
+      <div>
+        <h3>Stay low</h3>
+        <p>If a ball is flying toward you at shoulder height, let it go; it is likely going out. Always maintain a low, athletic stance to meet balls heading toward your feet.</p>
+      </div>
+    </div>
+
+    <div class="tip">
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M6 30c6 0 8-14 14-14s8 14 14 14"/>
+        <circle cx="34" cy="30" r="3" fill="#D9EA4E" stroke="#D9EA4E"/>
+      </svg>
+      <div>
+        <h3>The relaxed grip</h3>
+        <p>Just like with the third shot drop, a relaxed grip is key. When you tense up, the ball travels too far. A soft hand will make the ball move toward the kitchen in a slow, controlled motion.</p>
+      </div>
+    </div>
+
+    <div class="tip">
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <ellipse cx="20" cy="26" rx="9" ry="10"/>
+        <path d="M20 16V4"/>
+      </svg>
+      <div>
+        <h3>Paddle positioning</h3>
+        <p>Keep your paddle tip down. By keeping the paddle face angled down, you increase the available surface area for contact, which creates a more predictable, forgiving shot—even when dealing with an opponent's heavy topspin.</p>
+        <figure class="tip-figure">
+          <img src="paddle-tip-down-web.png" alt="Diagram: paddle held with tip pointing down toward the court for a reset">
+          <figcaption>Tip down, face ready — the reset-ready paddle position.</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <aside class="callout">
+      <span class="callout-value">Soft hands win both shots</span>
+      <p>Whether you're dropping from the baseline or resetting in transition, a relaxed 3–4 out of 10 grip is what keeps the ball slow, low, and landing in the kitchen.</p>
+    </aside>
+
+  </article>
+</main>
+
+<footer>Forward Pickleball · Drill Library</footer>
+
+
+<p style="text-align:center;font-size:0.85rem;color:#55616E;padding:0 1rem 1.5rem;line-height:1.9;">#Pickleball #PickleballTraining #PickleballTips #PickleballCoaching #PickleballCoach #PickleballDrills #PickleballTechnique #PickleballFootwork #PickleballStrategy #PickleballSkills #LearnPickleball #PickleballBeginner #ImproveYourGame #PickleballLife #PickleballCommunity #PickleballPlayers #PickleballCanada #OttawaPickleball #ActiveLiving #SportsTraining #ThirdShotDrop #Resets #SoftGame #Dinking</p>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DKH525918D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DKH525918D');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Forward Pickleball — Drill Library</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --court: #1D4466;     /* playing surface */
+    --court-deep: #142F48;
+    --kitchen: #3F7D5C;   /* non-volley zone */
+    --ball: #D9EA4E;      /* optic yellow */
+    --line: #F7F8F3;      /* court lines / paper */
+    --ink: #1B2632;
+    --muted: #55616E;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--line);
+    color: var(--ink);
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 1.125rem;
+    line-height: 1.7;
+  }
+  h1, h2, .meta, .card-num, .card-link, .count { font-family: "Bricolage Grotesque", system-ui, sans-serif; }
+
+  /* Hero */
+  .hero {
+    background: var(--court-deep);
+    color: var(--line);
+    padding: 4rem 1.5rem 3.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-inner { max-width: 62rem; margin: 0 auto; position: relative; }
+  .meta {
+    font-size: .9rem; font-weight: 700; color: var(--ball);
+    text-transform: uppercase; letter-spacing: .14em;
+    margin: 0 0 1rem;
+  }
+  h1 {
+    font-size: clamp(2.4rem, 6vw, 4rem);
+    line-height: 1.05; font-weight: 800; letter-spacing: -.02em;
+    margin: 0 0 1rem; max-width: 36rem;
+  }
+  .dek { font-size: 1.2rem; color: #DCE6EE; max-width: 40rem; margin: 0; }
+  .hero-ball {
+    position: absolute; right: -3rem; top: -3.5rem;
+    width: 13rem; height: 13rem; border-radius: 50%;
+    object-fit: cover;
+    opacity: .95; pointer-events: none;
+    box-shadow: 0 12px 32px rgba(0,0,0,.35);
+  }
+  .home-link {
+    display: inline-block;
+    font-family: "Bricolage Grotesque", system-ui, sans-serif;
+    font-size: .95rem; font-weight: 700;
+    color: var(--line); text-decoration: none;
+    border: 1px solid rgba(247,248,243,.4); border-radius: 999px;
+    padding: .35rem 1rem; margin-bottom: 1.25rem;
+    transition: background .15s ease;
+  }
+  .home-link:hover { background: rgba(247,248,243,.12); }
+  .hero-lines {
+    position: absolute; left: 0; right: 0; bottom: 0;
+    height: 5px; background: var(--line); opacity: .25;
+  }
+
+  /* Library */
+  main { max-width: 62rem; margin: 0 auto; padding: 3rem 1.5rem 4rem; }
+  .section-head {
+    display: flex; align-items: baseline; justify-content: space-between;
+    gap: 1rem; flex-wrap: wrap;
+    border-bottom: 2px solid #E2E6DC; padding-bottom: .75rem;
+  }
+  .section-head h2 { font-size: 1.5rem; margin: 0; color: var(--court-deep); }
+  .count { font-size: .95rem; color: var(--muted); }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    padding: 0; list-style: none;
+  }
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.75rem 1.6rem 1.5rem;
+    border-top: 6px solid var(--kitchen);
+    box-shadow: 0 2px 12px rgba(27,38,50,.08);
+    display: flex; flex-direction: column;
+    color: inherit; text-decoration: none;
+    transition: transform .15s ease, box-shadow .15s ease;
+  }
+  a.card:hover, a.card:focus-visible {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 26px rgba(27,38,50,.16);
+  }
+  a.card:focus-visible { outline: 3px solid var(--ball); outline-offset: 3px; }
+  .card-num {
+    font-size: .82rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .12em;
+    color: var(--kitchen); margin-bottom: .7rem;
+  }
+  .card h3 { font-size: 1.35rem; line-height: 1.25; margin: 0 0 .55rem; color: var(--court-deep); }
+  .card p { margin: 0 0 1.1rem; color: var(--muted); font-size: 1rem; line-height: 1.6; flex: 1; }
+  .tags { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: 1.1rem; }
+  .tag {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: .78rem; font-weight: 500;
+    background: #EDF1E6; color: var(--court-deep);
+    border-radius: 999px; padding: .15rem .7rem;
+  }
+  .card-link { font-weight: 700; color: var(--court); font-size: 1rem; }
+  .card-link::after { content: " →"; }
+
+  .card-soon { border-top-color: #C9CFC2; }
+  .card-soon .card-num { color: var(--muted); }
+  .card-soon h3 { color: var(--muted); }
+
+  footer { text-align: center; color: var(--muted); font-size: .95rem; padding: 0 1.5rem 3rem; }
+
+  @media (max-width: 40rem) {
+    .hero-ball { width: 7rem; height: 7rem; right: -1.5rem; top: -2rem; }
+  }
+  @media print {
+    .hero { background: #fff; color: var(--ink); padding: 1rem 0; }
+    .hero-ball, .hero-lines { display: none; }
+    .meta, .dek { color: var(--muted); }
+    h1 { color: var(--ink); }
+    .card { box-shadow: none; border: 1px solid #DADFD3; break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <img class="hero-ball" src="pickleball.png" alt="Yellow pickleball">
+    <a class="home-link" href="https://forwardpickleball.org">← forwardpickleball.org</a>
+    <p class="meta">Forward Pickleball · Coaching</p>
+    <h1>Drill Library</h1>
+    <p class="dek">Focused drills for the 3.5–4.0 game — drops, resets, dinks, and everything between the baseline and the kitchen.</p>
+  </div>
+  <div class="hero-lines" aria-hidden="true"></div>
+</header>
+
+<main>
+  <div class="section-head">
+    <h2>All drills</h2>
+    <span class="count">3 drills published</span>
+  </div>
+
+  <ul class="grid">
+    <!--
+      TO ADD A DRILL: copy the <li> block below, paste it at the top of the
+      list, then update the number, title, description, tags, and href to
+      point at the new drill's HTML file.
+    -->
+    <li>
+      <a class="card" href="third-shot-drop-and-resets.html">
+        <span class="card-num">Drill 01</span>
+        <h3>Third Shot Drop &amp; Resets</h3>
+        <p>Topspin forehand third shot drops and transition-zone resets — the two shots that unlock the 4.0 game, with a relaxed 3–4/10 grip.</p>
+        <div class="tags">
+          <span class="tag">4.0+</span>
+          <span class="tag">Drops</span>
+          <span class="tag">Resets</span>
+        </div>
+        <span class="card-link">Open drill</span>
+      </a>
+    </li>
+
+    <li>
+      <a class="card" href="master-the-return.html">
+        <span class="card-num">Drill 02</span>
+        <h3>Master the Return</h3>
+        <p>Hit deeper, more effective returns — push the ball into the deep zone to neutralize the serving team and take control of the point.</p>
+        <div class="tags">
+          <span class="tag">3.5+</span>
+          <span class="tag">Returns</span>
+          <span class="tag">Depth</span>
+        </div>
+        <span class="card-link">Open drill</span>
+      </a>
+    </li>
+
+    <li>
+      <a class="card" href="fast-hands-volley-drill.html">
+        <span class="card-num">Drill 03</span>
+        <h3>Fast Hands Volley Drill</h3>
+        <p>Win the kitchen firefight — compact, calm volleys with no backswing. Includes the live firefight drill with progressions.</p>
+        <div class="tags">
+          <span class="tag">4.0+</span>
+          <span class="tag">Volleys</span>
+          <span class="tag">Firefight</span>
+        </div>
+        <span class="card-link">Open drill</span>
+      </a>
+    </li>
+  </ul>
+</main>
+
+<footer>Forward Pickleball · Drill Library · <a href="https://forwardpickleball.org" style="color: var(--court);">forwardpickleball.org</a></footer>
+
+
+<p style="text-align:center;font-size:0.85rem;color:#55616E;padding:0 1rem 1.5rem;line-height:1.9;">#Pickleball #PickleballTraining #PickleballTips #PickleballCoaching #PickleballCoach #PickleballDrills #PickleballTechnique #PickleballFootwork #PickleballStrategy #PickleballSkills #LearnPickleball #PickleballBeginner #ImproveYourGame #PickleballLife #PickleballCommunity #PickleballPlayers #PickleballCanada #OttawaPickleball #ActiveLiving #SportsTraining #DrillLibrary #PickleballPractice</p>
+</body>
+</html>

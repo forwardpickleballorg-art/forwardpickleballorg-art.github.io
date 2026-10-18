@@ -8,7 +8,7 @@ description: >-
 email: forward.pickleball.org@gmail.com
 address: Kanata, Ontario
 baseurl: ""
-url: "https://forwardpickleballorg-art.github.io"
+url: "https://forwardpickleball.org"
 
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title/
@@ -33,6 +33,8 @@ navigation:
     url: /
   - title: Blog
     url: /blog/
+  - title: Drill Library
+    url: /drilling/
   - title: Coaching
     url: /coaching/
   - title: About
