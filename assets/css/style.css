@@ -103,6 +103,7 @@ a:hover { text-decoration: underline; }
 .hero-page { padding: 56px 24px; }
 .hero-page .page-header { margin-bottom: 0; }
 .hero-page .lead { margin-bottom: 0; }
+.hero-page .category-nav { margin-top: 28px; margin-bottom: 0; }
 .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; }
 
 /* Buttons */

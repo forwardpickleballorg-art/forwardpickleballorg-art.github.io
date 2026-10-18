@@ -3,23 +3,22 @@ layout: default
 title: Blog
 permalink: /blog/
 ---
+{% assign groups = site.posts | group_by: "category" | sort: "name" %}
 <section class="hero hero-page">
   <div class="wrap">
     <header class="page-header">
       <h1>Coaching Notes &amp; Blog</h1>
       <p class="lead">Drills, strategy breakdowns, and lessons from the court — grouped by topic so you can go straight to what your game needs.</p>
     </header>
+    <nav class="category-nav" aria-label="Blog categories">
+      {% for group in groups %}
+      <a class="category-chip" href="#category-{{ group.name | slugify }}">{{ group.name }} · {{ group.items | size }}</a>
+      {% endfor %}
+    </nav>
   </div>
 </section>
 
 <section class="wrap section">
-  {% assign groups = site.posts | group_by: "category" | sort: "name" %}
-  <nav class="category-nav" aria-label="Blog categories">
-    {% for group in groups %}
-    <a class="category-chip" href="#category-{{ group.name | slugify }}">{{ group.name }} · {{ group.items | size }}</a>
-    {% endfor %}
-  </nav>
-
   {% for group in groups %}
   <section class="category-group" id="category-{{ group.name | slugify }}">
     <h2 class="category-heading">{{ group.name }}</h2>
