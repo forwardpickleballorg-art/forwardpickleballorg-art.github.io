@@ -46,3 +46,7 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed

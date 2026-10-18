@@ -1,6 +1,18 @@
 ---
 layout: default
 ---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.excerpt | strip_html | strip_newlines | truncate: 200 | jsonify }},
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "author": { "@type": "Organization", "name": {{ page.author | default: site.title | jsonify }} },
+  "publisher": { "@type": "Organization", "name": {{ site.title | jsonify }} },
+  "mainEntityOfPage": {{ page.url | absolute_url | jsonify }}
+}
+</script>
 <article class="post wrap-narrow">
   <header class="post-header">
     {% if page.category %}<p class="post-category">{{ page.category }}</p>{% endif %}
