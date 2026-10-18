@@ -100,6 +100,9 @@ a:hover { text-decoration: underline; }
   margin-bottom: 16px;
 }
 .hero .lead { color: #e6f1ea; font-size: 1.1rem; margin-bottom: 28px; }
+.hero-page { padding: 56px 24px; }
+.hero-page .page-header { margin-bottom: 0; }
+.hero-page .lead { margin-bottom: 0; }
 .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; }
 
 /* Buttons */
