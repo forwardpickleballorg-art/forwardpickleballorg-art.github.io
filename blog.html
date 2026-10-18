@@ -6,19 +6,31 @@ permalink: /blog/
 <section class="wrap section">
   <header class="page-header">
     <h1>Coaching Notes &amp; Blog</h1>
-    <p class="lead">Drills, strategy breakdowns, and lessons from the court.</p>
+    <p class="lead">Drills, strategy breakdowns, and lessons from the court — grouped by topic so you can go straight to what your game needs.</p>
   </header>
 
-  <div class="post-list">
-    {% for post in site.posts %}
-    <a class="post-list-item" href="{{ post.url | relative_url }}">
-      <div class="post-list-meta">
-        {% if post.category %}<span class="post-category">{{ post.category }}</span>{% endif %}
-        <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
-      </div>
-      <h2>{{ post.title }}</h2>
-      <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
-    </a>
+  {% assign groups = site.posts | group_by: "category" | sort: "name" %}
+  <nav class="category-nav" aria-label="Blog categories">
+    {% for group in groups %}
+    <a class="category-chip" href="#category-{{ group.name | slugify }}">{{ group.name }} · {{ group.items | size }}</a>
     {% endfor %}
-  </div>
+  </nav>
+
+  {% for group in groups %}
+  <section class="category-group" id="category-{{ group.name | slugify }}">
+    <h2 class="category-heading">{{ group.name }}</h2>
+    <div class="post-list">
+      {% for post in group.items %}
+      <a class="post-list-item" href="{{ post.url | relative_url }}">
+        <div class="post-list-meta">
+          {% if post.category %}<span class="post-category">{{ post.category }}</span>{% endif %}
+          <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+        </div>
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
 </section>
