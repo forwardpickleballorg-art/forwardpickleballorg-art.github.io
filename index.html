@@ -75,7 +75,6 @@ title: Home
       {% if post.category %}<span class="post-category">{{ post.category }}</span>{% endif %}
       <h3>{{ post.title }}</h3>
       <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
-      <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
     </a>
     {% endfor %}
   </div>

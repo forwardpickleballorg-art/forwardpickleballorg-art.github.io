@@ -2,6 +2,8 @@
 title: "The Third Shot Drop: A Coach's Guide to Getting to the Kitchen"
 category: Strategy
 author: Coach Team
+redirect_from:
+  - /blog/2026/06/01/third-shot-drop-fundamentals/
 ---
 
 If there's one shot that separates players who can rally from players who

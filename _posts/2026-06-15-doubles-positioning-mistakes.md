@@ -2,6 +2,8 @@
 title: "5 Doubles Positioning Mistakes We See in Every Clinic"
 category: Strategy
 author: Coach Team
+redirect_from:
+  - /blog/2026/06/15/doubles-positioning-mistakes/
 ---
 
 Doubles pickleball is won and lost on positioning as much as it is on

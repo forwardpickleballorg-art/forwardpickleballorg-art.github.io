@@ -2,6 +2,8 @@
 title: "What We Teach in Every Beginner's First Lesson"
 category: Beginners
 author: Coach Team
+redirect_from:
+  - /blog/2026/07/01/beginner-mistakes-first-lesson/
 ---
 
 New students often expect their first lesson to start with fast-paced
