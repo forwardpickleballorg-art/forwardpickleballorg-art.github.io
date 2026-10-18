@@ -130,9 +130,33 @@ layout: null
     transition: background .15s ease;
   }
   .back-link:hover { background: rgba(247,248,243,.12); }
+
+  /* Top menu (same menu as the main site, in drill-library blue) */
+  .top-menu { background: var(--court-deep); border-bottom: 1px solid rgba(247,248,243,.18); font-family: "Bricolage Grotesque", system-ui, sans-serif; }
+  .top-menu-inner { max-width: 62rem; margin: 0 auto; padding: .7rem 1.5rem; display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1.5rem; }
+  .top-menu-home { color: var(--line); text-decoration: none; font-weight: 700; font-size: .95rem; border: 1px solid rgba(247,248,243,.4); border-radius: 999px; padding: .35rem 1rem; }
+  .top-menu-home:hover { background: rgba(247,248,243,.12); }
+  .top-menu-links { display: flex; flex-wrap: wrap; gap: .4rem 1.4rem; margin-left: auto; }
+  .top-menu-links a { color: var(--line); text-decoration: none; font-size: .98rem; font-weight: 600; }
+  .top-menu-links a:hover { color: var(--ball); }
+  .top-menu-links a.active { color: var(--ball); }
 </style>
 </head>
 <body>
+<nav class="top-menu" aria-label="Main menu">
+  <div class="top-menu-inner">
+    <a class="top-menu-home" href="https://forwardpickleball.org">&larr; forwardpickleball.org</a>
+    <div class="top-menu-links">
+      <a href="/">Home</a>
+      <a href="/blog/">Blog</a>
+      <a href="/drilling/" class="active">Drill Library</a>
+      <a href="/coaching/">Coaching</a>
+      <a href="/about/">About</a>
+      <a href="/contact/">Contact</a>
+    </div>
+  </div>
+</nav>
+
 
 <header class="hero">
   <div class="hero-inner">
