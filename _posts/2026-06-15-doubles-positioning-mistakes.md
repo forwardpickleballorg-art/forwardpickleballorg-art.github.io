@@ -1,6 +1,6 @@
 ---
 title: "5 Doubles Positioning Mistakes We See in Every Clinic"
-category: Doubles
+category: Strategy
 author: Coach Team
 ---
 
