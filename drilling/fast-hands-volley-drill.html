@@ -136,16 +136,20 @@ layout: null
 
   /* Top menu (same menu as the main site, in drill-library blue) */
   .top-menu { background: var(--court-deep); border-bottom: 1px solid rgba(247,248,243,.18); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
-  .top-menu-inner { max-width: 62rem; margin: 0 auto; padding: .5rem 1.5rem; min-height: 72px; display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1.5rem; }
+  .top-menu-inner { max-width: 62rem; margin: 0 auto; padding: .5rem 1.5rem; min-height: 72px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .6rem 1.5rem; }
   .top-menu-brand { display: inline-flex; align-items: center; gap: 10px; color: var(--line); text-decoration: none; font-weight: 700; }
   .top-menu-name { font-size: 1.05rem; }
   .top-menu-mark-wrap { background: var(--line); border-radius: .5rem; padding: .25rem .5rem; display: inline-flex; }
   .top-menu-mark { height: 40px; width: auto; display: block; }
   .top-menu-brand:hover .top-menu-name { color: var(--ball); }
-  .top-menu-links { display: flex; flex-wrap: wrap; gap: 24px; margin-left: auto; }
+  .top-menu-links { display: flex; flex-wrap: wrap; gap: 24px; }
   .top-menu-links a { color: var(--line); text-decoration: none; font-size: .95rem; font-weight: 500; }
   .top-menu-links a:hover { color: var(--ball); }
   .top-menu-links a.active { color: var(--ball); }
+  @media (max-width: 720px) {
+    .top-menu-inner { height: auto; min-height: 0; padding-top: 12px; padding-bottom: 12px; gap: 10px; }
+    .top-menu-links { gap: 14px; }
+  }
 </style>
 </head>
 <body>
