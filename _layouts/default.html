@@ -12,6 +12,18 @@
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:site_name" content="{{ site.title }}">
   <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Forward Pickleball",
+    "alternateName": "Dive Forward Pickleball",
+    "url": "https://forwardpickleball.org/",
+    "logo": "https://forwardpickleball.org/assets/images/logo.svg",
+    "email": "forward.pickleball.org@gmail.com",
+    "description": {{ site.description | jsonify }}
+  }
+  </script>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏓</text></svg>">
   <!-- Google tag (gtag.js) -->
