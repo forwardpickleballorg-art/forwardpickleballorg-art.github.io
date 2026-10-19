@@ -152,8 +152,10 @@ layout: null
   /* Top menu (same menu as the main site, in drill-library blue) */
   .top-menu { background: var(--court-deep); border-bottom: 1px solid rgba(247,248,243,.18); font-family: "Bricolage Grotesque", system-ui, sans-serif; }
   .top-menu-inner { max-width: 62rem; margin: 0 auto; padding: .7rem 1.5rem; display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1.5rem; }
-  .top-menu-home { color: var(--line); text-decoration: none; font-weight: 700; font-size: .95rem; border: 1px solid rgba(247,248,243,.4); border-radius: 999px; padding: .35rem 1rem; }
-  .top-menu-home:hover { background: rgba(247,248,243,.12); }
+  .top-menu-brand { display: inline-flex; align-items: center; gap: .6rem; color: var(--line); text-decoration: none; font-weight: 700; font-size: 1.05rem; }
+  .top-menu-mark-wrap { background: var(--line); border-radius: .5rem; padding: .25rem .5rem; display: inline-flex; }
+  .top-menu-mark { height: 2rem; width: auto; display: block; }
+  .top-menu-brand:hover .top-menu-name { color: var(--ball); }
   .top-menu-links { display: flex; flex-wrap: wrap; gap: .4rem 1.4rem; margin-left: auto; }
   .top-menu-links a { color: var(--line); text-decoration: none; font-size: .98rem; font-weight: 600; }
   .top-menu-links a:hover { color: var(--ball); }
@@ -163,7 +165,7 @@ layout: null
 <body>
 <nav class="top-menu" aria-label="Main menu">
   <div class="top-menu-inner">
-    <a class="top-menu-home" href="https://forwardpickleball.org">&larr; forwardpickleball.org</a>
+    <a class="top-menu-brand" href="/"><span class="top-menu-mark-wrap"><img class="top-menu-mark" src="/assets/images/logo.svg" alt="Dive Forward Pickleball logo"></span><span class="top-menu-name">Dive Forward Pickleball</span></a>
     <div class="top-menu-links">
       <a href="/">Home</a>
       <a href="/blog/">Blog</a>
