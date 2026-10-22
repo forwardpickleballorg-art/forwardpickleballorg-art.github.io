@@ -37,6 +37,21 @@ permalink: /coaching/
     </p>
   </div>
 
+  <div class="program">
+    <h2>3-Week Drill Program</h2>
+    <p>
+      A three-week program built from the drill library &mdash; deliberate
+      drills, zero wasted rallies. Week 1: third shot drops and resets.
+      Week 2: deeper, more effective returns. Week 3: winning the kitchen
+      firefight. It makes a great gift for yourself or a loved one, and
+      contributions through the program help Kanata Pickleball Club (KPC)
+      buy pickleball gear.
+    </p>
+    <p>
+      <a href="{{ '/coaching/3-week-drill-program/' | relative_url }}">See the 3-week plan &rarr;</a>
+    </p>
+  </div>
+
   <div class="cta-inline">
     <a class="button" href="{{ '/contact/' | relative_url }}">Book a Session</a>
   </div>
