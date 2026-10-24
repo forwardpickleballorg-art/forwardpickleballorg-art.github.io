@@ -1,0 +1,218 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DKH525918D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DKH525918D');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Forward Pickleball — Pickleball Ecological Dynamics</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --court: #1D4466;     /* playing surface */
+    --court-deep: #142F48;
+    --kitchen: #3F7D5C;   /* non-volley zone */
+    --ball: #D9EA4E;      /* optic yellow */
+    --line: #F7F8F3;      /* court lines / paper */
+    --ink: #1B2632;
+    --muted: #55616E;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--line);
+    color: var(--ink);
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 1.125rem;
+    line-height: 1.7;
+  }
+  h1, h2, .meta { font-family: "Bricolage Grotesque", system-ui, sans-serif; }
+
+  /* Hero */
+  .hero {
+    background: var(--court-deep);
+    color: var(--line);
+    padding: 4rem 1.5rem 3.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-inner { max-width: 62rem; margin: 0 auto; position: relative; }
+  .meta {
+    font-size: .9rem; font-weight: 700; color: var(--ball);
+    text-transform: uppercase; letter-spacing: .14em;
+    margin: 0 0 1rem;
+  }
+  h1 {
+    font-size: clamp(2.4rem, 6vw, 4rem);
+    line-height: 1.05; font-weight: 800; letter-spacing: -.02em;
+    margin: 0 0 1rem; max-width: 36rem;
+  }
+  .dek { font-size: 1.2rem; color: #DCE6EE; max-width: 40rem; margin: 0; }
+  .hero-ball {
+    position: absolute; right: -3rem; top: -3.5rem;
+    width: 13rem; height: 13rem; border-radius: 50%;
+    object-fit: cover;
+    opacity: .95; pointer-events: none;
+    box-shadow: 0 12px 32px rgba(0,0,0,.35);
+  }
+  .hero-lines {
+    position: absolute; left: 0; right: 0; bottom: 0;
+    height: 5px; background: var(--line); opacity: .25;
+  }
+
+  /* Article */
+  main { max-width: 62rem; margin: 0 auto; padding: 3rem 1.5rem 4rem; }
+  main .article { max-width: 42rem; }
+  main h2 {
+    font-size: 1.5rem; margin: 2.5rem 0 .75rem; color: var(--court-deep);
+    border-bottom: 2px solid #E2E6DC; padding-bottom: .5rem;
+  }
+  main h2:first-child { margin-top: 0; }
+  main p { margin: 0 0 1.25rem; }
+  main strong { color: var(--court-deep); }
+  .byline { color: var(--muted); font-size: 1rem; margin: 0 0 2rem; }
+
+  footer { text-align: center; color: var(--muted); font-size: .95rem; padding: 0 1.5rem 3rem; }
+
+  @media (max-width: 40rem) {
+    .hero-ball { width: 7rem; height: 7rem; right: -1.5rem; top: -2rem; }
+  }
+  @media print {
+    .hero { background: #fff; color: var(--ink); padding: 1rem 0; }
+    .hero-ball, .hero-lines { display: none; }
+    .meta, .dek { color: var(--muted); }
+    h1 { color: var(--ink); }
+  }
+
+  /* Site header (identical to the main site header) */
+  .site-header { border-bottom: 1px solid #e4e0d6; background: #ffffff; position: sticky; top: 0; z-index: 10; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; }
+  .site-header .wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; height: 72px; }
+  .site-header .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; color: #1b2320; text-decoration: none; }
+  .site-header .brand:hover { text-decoration: none; }
+  .site-header .brand-mark { display: block; height: 40px; width: auto; }
+  .site-header .brand-name { font-size: 1.05rem; }
+  .site-header .site-nav { display: flex; gap: 24px; }
+  .site-header .site-nav a { color: #4a544f; font-weight: 500; font-size: .95rem; text-decoration: none; }
+  .site-header .site-nav a.active, .site-header .site-nav a:hover { color: #234f3b; text-decoration: none; }
+  @media (max-width: 720px) {
+    .site-header .site-nav { gap: 14px; }
+    .site-header .wrap { flex-wrap: wrap; height: auto; padding-top: 12px; padding-bottom: 12px; gap: 10px; }
+  }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <img class="brand-mark" src="/assets/images/logo.svg" alt="Dive Forward Pickleball logo">
+      <span class="brand-name">Dive Forward Pickleball</span>
+    </a>
+    <nav class="site-nav">
+      <a href="/">Home</a>
+      <a href="/blog/">Blog</a>
+      <a href="/drilling/">Drill Library</a>
+      <a href="/coaching/" class="active">Coaching</a>
+      <a href="/about/">About</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </div>
+</header>
+
+
+
+<header class="hero">
+  <div class="hero-inner">
+    <img class="hero-ball" src="/drilling/pickleball.png" alt="Yellow pickleball">
+    <p class="meta">Forward Pickleball · Coaching</p>
+    <h1>Pickleball Ecological Dynamics</h1>
+    <p class="dek">Coaching that lets your game organize itself — deliberate drills, zero wasted rallies, and a game designed so your body learns faster than your brain can overthink it.</p>
+  </div>
+  <div class="hero-lines" aria-hidden="true"></div>
+</header>
+
+<main>
+  <div class="article">
+  <p class="byline">By Forward Pickleball</p>
+
+  <p>If you have ever taken a traditional pickleball lesson, you know the feeling. The coach gives you ten instructions before you even hit a ball: bend your knees, paddle up, step here, turn there, swing like this. Then the rally starts, the ball comes at game speed, and every one of those instructions falls out of your head at once.</p>
+
+  <p>There is a better way to learn, and it is how I coach now. It is called ecological dynamics — and it is changing how the best coaches in racket sports teach.</p>
+
+  <h2>What ecological dynamics actually means</h2>
+
+  <p>Ecological dynamics starts from a simple idea: you do not perceive the game and then move, as two separate steps. Perceiving and moving are one coupled system — you perceive in order to move, and you move in order to perceive. The court offers you what the scientist James Gibson called affordances: opportunities for action that depend on you. The same high ball affords an attack when you are balanced at the kitchen line, and no such thing when you are backpedalling behind the baseline.</p>
+
+  <p>Three kinds of constraints shape every shot you hit: you (your size, speed, fitness, experience), the task (the score, the target, the rules of the game we are playing), and the environment (the court, the wind, the surface). Change any constraint, and the movement that emerges changes with it. That is why there is no single ideal swing: two different third-shot drops can both be correct, because two different bodies solved the same problem two different ways. Scientists call this degeneracy, and the great movement scientist Nikolai Bernstein called its training form "repetition without repetition" — you never hit the exact same ball twice, and that variability is not error. It is how adaptable players are made.</p>
+
+  <p>So my job as a coach is not to be a drill sergeant. It is to be a game designer. Instead of demonstrating a perfect form and correcting every deviation, I design practice that keeps the real game intact — an opponent, a score, a decision — and let the skill emerge from playing it. That is called representative learning design: practice should look like the game it is preparing you for.</p>
+
+  <p>One myth to clear up: ecological dynamics does not mean no instruction. Cues and questions still matter — they direct your attention to the right information. The difference is that I point your attention at the game, not at your body parts.</p>
+
+  <h2>1. How you look at the ball</h2>
+
+  <p>"Watch the ball" is good advice, but it is actually three jobs, not one. Before your opponent hits, you read their body — trunk, hips, shoulders — and that tells you what is coming about a fraction of a second earlier than the ball itself does. After contact, you track the flight. And through your own contact, you keep a quiet gaze: eyes steady, head still.</p>
+
+  <p>The mistake most players make is lifting their head at the last moment to peek at where they want to hit. That peek shifts your shoulders and your arm timing, and it wrecks contact. Finish the hit before you look for the result. Your head stays quiet; the ball goes where your body already aimed it.</p>
+
+  <h2>2. Footwork that finds itself</h2>
+
+  <p>I do not teach footwork patterns to memorize. I teach one timing habit: the split step. As your opponent makes contact, you take a small hop and land ready, weight forward on your feet. From there, small adjustment steps do the rest — never one big lunge, never reaching with your arm before your feet have moved.</p>
+
+  <p>At the kitchen line, that means shuffling sideways, never crossing your feet or turning your hips away from the court. Feet first, then hands. When the feet are right, the hands look after themselves — and that footwork emerges from the rally itself, not from a pattern you rehearsed without a ball.</p>
+
+  <h2>3. Body movement: low through your hips, not your back</h2>
+
+  <p>"Get low" is the most misunderstood instruction in pickleball. Players hear it and hunch at the waist — and then wonder why they are slow and off balance.</p>
+
+  <p>Getting low means your hips descend while your chest stays upright. Knees bent, athletic stance, ready to push off in any direction. Hunching drops your head and your paddle, narrows what you can see, and loads your lower back. Low through the hips is the posture that lets you move, reach, and recover — all from the same position.</p>
+
+  <h2>4. Your chin: the little check that tells the truth</h2>
+
+  <p>Here is my favourite quick check: in your ready position, your nose should be roughly over your toes. Chin slightly forward, head up, eyes level.</p>
+
+  <p>That small forward lean — from the ankles and hips, not a hunched back — tells me three things at a glance: your weight is forward and available, your balance is athletic, and your eyes are up and taking in the whole court. When a student's chin drops or drifts back, everything else usually follows. Fix the head position and the rest of the body often fixes itself. It is a cue, not a measurement — but it is the fastest diagnostic I have.</p>
+
+  <h2>Why the change comes so fast</h2>
+
+  <p>This is the part players find hardest to believe until they feel it: the improvement often shows up within the first few minutes of a session.</p>
+
+  <p>There is a reason. Research on external focus — led by Gabriele Wulf — shows that aiming at a target beats thinking about a body part, for beginners and advanced players alike, and that the benefit holds up in later retention tests. "Land it in the towel zone" works faster than "rotate your shoulders and extend your arm," because it frees your body's automatic control instead of crowding it with instructions.</p>
+
+  <p>Most of the time, the skill is already inside you. The right game just unlocks it. One small change in the task — a target on the court, a scoring rule that punishes pop-ups, a constraint on your footwork — and your body attunes to new information and calibrates within minutes. You are not learning a new movement from scratch. You are tuning one you already own.</p>
+
+  <h2>Try it: games I use</h2>
+
+  <p><strong>Skinny singles.</strong> Half the court, full decisions. With a drop-only or drive-only third-shot rule, the right shot choice emerges from the rally — deep, low return, you drop; short, high return, you drive.</p>
+
+  <p><strong>The Towel-Zone Third-Shot Game.</strong> A towel in the kitchen is the target zone. Drop in the zone, two points. Drive it, one point. Pop it up, you lose the rally. Within minutes, players start finding a soft arc and a shorter swing — without me ever describing one.</p>
+
+  <p><strong>The 7–11 transition game.</strong> One player starts at the baseline, the other at the kitchen, playing to 7 or 11. It forces the exact skill most players avoid: earning your way forward, one good shot at a time.</p>
+
+  <h2>Come feel it</h2>
+
+  <p>That is pickleball ecological dynamics: deliberate drills, zero wasted rallies, and a game designed so your body learns faster than your brain can overthink it. Don't teach the swing. Design the problem — and let the swing emerge.</p>
+
+  <p>Most students feel a clear difference in the first few minutes of a session — not because of a trick, but because the coaching finally gets out of the body's way. Want to try it? Have a look at our <a href="/coaching/">coaching programs</a>, including the <a href="/coaching/3-week-drill-program/">3-week drill program</a> — and come see what your game already knows how to do.</p>
+  </div>
+</main>
+
+<footer>Forward Pickleball · Coaching · <a href="https://forwardpickleball.org" style="color: var(--court);">forwardpickleball.org</a></footer>
+
+
+
+<p style="text-align:center;font-size:0.85rem;color:#55616E;padding:0 1rem 1.5rem;line-height:1.9;">#Pickleball #PickleballTraining #PickleballTips #PickleballCoaching #PickleballCoach #PickleballDrills #PickleballTechnique #PickleballFootwork #PickleballStrategy #PickleballSkills #LearnPickleball #PickleballBeginner #ImproveYourGame #PickleballLife #PickleballCommunity #PickleballPlayers #PickleballCanada #OttawaPickleball #ActiveLiving #SportsTraining #DrillLibrary #PickleballPractice #EcologicalDynamics #ConstraintsLedApproach</p>
+</body>
+</html>

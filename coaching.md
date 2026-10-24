@@ -52,6 +52,22 @@ permalink: /coaching/
     </p>
   </div>
 
+  <div class="program">
+    <h2>Pickleball Ecological Dynamics</h2>
+    <p>
+      The coaching method behind the programs above &mdash; no memorized
+      perfect swing, no ten instructions before you hit a ball. Instead,
+      the game itself is designed so the right movement emerges: how you
+      watch the ball, footwork that finds itself, getting low through your
+      hips, and the nose-over-toes check that tells the truth about your
+      ready position. Most students feel a clear difference in the first
+      few minutes.
+    </p>
+    <p>
+      <a href="{{ '/coaching/pickleball-ecological-dynamics/' | relative_url }}">Read about ecological dynamics &rarr;</a>
+    </p>
+  </div>
+
   <div class="cta-inline">
     <a class="button" href="{{ '/contact/' | relative_url }}">Book a Session</a>
   </div>
