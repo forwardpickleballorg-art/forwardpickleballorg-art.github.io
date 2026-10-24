@@ -4,9 +4,6 @@ title: Coaching
 permalink: /coaching/
 ---
 <section class="wrap section-narrow">
-  <h1>Coaching Programs</h1>
-  <p class="lead">Pick the format that fits your goals and schedule.</p>
-
   <div class="program">
     <h2>Pickleball Ecological Dynamics</h2>
     <p>
@@ -22,6 +19,9 @@ permalink: /coaching/
       <a href="{{ '/coaching/pickleball-ecological-dynamics/' | relative_url }}">Read about ecological dynamics &rarr;</a>
     </p>
   </div>
+
+  <h1>Coaching Programs</h1>
+  <p class="lead">Pick the format that fits your goals and schedule.</p>
 
   <div class="program">
     <h2>Private Lessons</h2>
