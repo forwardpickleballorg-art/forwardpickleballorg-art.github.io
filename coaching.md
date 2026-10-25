@@ -73,7 +73,7 @@ permalink: /coaching/
     <ul>
       <li>Private Lesson &mdash; $45/hour</li>
       <li>Semi-Private Lesson &mdash; $50/hour total ($25 each)</li>
-      <li>Group of 3 &mdash; $22/person/hour</li>
+      <li>Group of 3 &mdash; $20/person/hour</li>
       <li>Group of 4 &mdash; $15/person/hour</li>
     </ul>
     <p>Court fee not included.</p>
