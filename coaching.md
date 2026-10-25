@@ -91,7 +91,7 @@ permalink: /coaching/
   <div class="program">
     <h2>About Me</h2>
     <ul>
-      <li>Certified Level 1 Coach</li>
+      <li>Certified NCCP Coach</li>
       <li>Active member of the Ottawa pickleball community</li>
     </ul>
   </div>
