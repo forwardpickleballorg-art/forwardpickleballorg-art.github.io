@@ -68,6 +68,35 @@ permalink: /coaching/
     </p>
   </div>
 
+  <div class="program">
+    <h2>Lesson Rates</h2>
+    <ul>
+      <li>Private Lesson &mdash; $45/hour</li>
+      <li>Semi-Private Lesson &mdash; $50/hour total ($25 each)</li>
+      <li>Group of 3 &mdash; 2 hours for $22/person</li>
+      <li>Group of 4 &mdash; 2 hours for $15/person</li>
+    </ul>
+    <h3>Lessons can focus on:</h3>
+    <ul>
+      <li>Fundamentals &amp; consistency</li>
+      <li>Court positioning &amp; movement</li>
+      <li>Third shot development</li>
+      <li>Dinking &amp; net play</li>
+      <li>Strategy &amp; shot selection</li>
+      <li>Transition game improvement</li>
+      <li>Competitive/tournament preparation</li>
+      <li>Game confidence and decision making</li>
+    </ul>
+  </div>
+
+  <div class="program">
+    <h2>About Me</h2>
+    <ul>
+      <li>Certified Level 1 Coach</li>
+      <li>Active member of the Ottawa pickleball community</li>
+    </ul>
+  </div>
+
   <div class="cta-inline">
     <a class="button" href="{{ '/contact/' | relative_url }}">Book a Session</a>
   </div>
