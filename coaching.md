@@ -82,11 +82,9 @@ permalink: /coaching/
       <li>Fundamentals &amp; consistency</li>
       <li>Court positioning &amp; movement</li>
       <li>Third shot development</li>
-      <li>Dinking &amp; net play</li>
       <li>Strategy &amp; shot selection</li>
       <li>Transition game improvement</li>
       <li>Competitive/tournament preparation</li>
-      <li>Game confidence and decision making</li>
     </ul>
   </div>
 
