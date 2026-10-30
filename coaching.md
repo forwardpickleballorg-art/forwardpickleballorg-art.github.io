@@ -8,7 +8,7 @@ permalink: /coaching/
     <h2>Pickleball Ecological Dynamics</h2>
     <p>
       The coaching method behind the programs below &mdash; no memorized
-      perfect swing, no ten instructions before you hit a ball. Instead,
+      perfect swing, no lengthy instructions before you hit a ball. Instead,
       the game itself is designed so the right movement emerges: how you
       watch the ball, footwork that finds itself, getting low through your
       hips, and the nose-over-toes check that tells the truth about your
@@ -94,6 +94,20 @@ permalink: /coaching/
       <li>Certified NCCP Coach</li>
       <li>Active member of the Ottawa pickleball community</li>
     </ul>
+  </div>
+
+  <div class="program">
+    <h2>7 Positioning Upgrades</h2>
+    <p>
+      Where you stand wins more points than how you swing. Seven
+      positioning upgrades for 3.0 to 4.0 players &mdash; serve and stay,
+      move up together on thirds, room on the return, diagonal transition
+      movement, holding the kitchen line, recovering after going wide,
+      and covering the middle together.
+    </p>
+    <p>
+      <a href="{{ '/coaching/7-positioning-upgrades/' | relative_url }}">Read the seven upgrades &rarr;</a>
+    </p>
   </div>
 
   <div class="cta-inline">
