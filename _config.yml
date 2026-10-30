@@ -31,7 +31,7 @@ defaults:
 navigation:
   - title: Home
     url: /
-  - title: Blog
+  - title: "COACH'S CORNER"
     url: /blog/
   - title: Drill Library
     url: /drilling/
