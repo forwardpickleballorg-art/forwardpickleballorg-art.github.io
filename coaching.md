@@ -98,7 +98,7 @@ permalink: /coaching/
 
   <hr style="border: none; border-top: 2px solid #E2E6DC; margin: 2rem 0;">
 
-  <p style="text-align: center; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #3F7D5C; margin: 0;">Must-Try Self-Managed Coach's Clinic</p>
+  <p style="text-align: center; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #3F7D5C; margin: 0;">Must-Try Coach's Corner Clinic — Learn It, Practise It Yourself</p>
 
   <hr style="border: none; border-top: 2px solid #E2E6DC; margin: 2rem 0;">
 
