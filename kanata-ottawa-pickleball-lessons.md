@@ -36,7 +36,7 @@ excerpt: "Pickleball lessons in Kanata with Louie Kwan, Certified NCCP Coach. Pr
     See all programs on the
     <a href="{{ '/coaching/' | relative_url }}">Coaching page</a>, or
     <a href="{{ '/contact/' | relative_url }}">get in touch</a> to book a
-    session with Louie Kwan in Kanata or Ottawa.
+    session in Kanata.
   </p>
 
   <div class="cta-inline">
