@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Pickleball Lessons in Kanata & Ottawa with Louie Kwan"
+title: "Pickleball Lessons in Kanata with Louie Kwan"
 permalink: /kanata-ottawa-pickleball-lessons/
-excerpt: "Pickleball lessons in Kanata and Ottawa with Louie Kwan, Certified NCCP Coach. Private lessons, group clinics, and online coaching — book a session."
+excerpt: "Pickleball lessons in Kanata with Louie Kwan, Certified NCCP Coach. Private lessons, group clinics, and online coaching — book a session."
 ---
 <section class="wrap section-narrow">
-  <h1>Pickleball Lessons in Kanata &amp; Ottawa</h1>
+  <h1>Pickleball Lessons in Kanata</h1>
   <p class="lead">
     Learn pickleball with Louie Kwan, Certified NCCP Coach, in Kanata and
     Ottawa. Whether you're picking up a paddle for the first time or
