@@ -117,7 +117,7 @@ excerpt: "Pickleball coaching in Kanata and Ottawa with Louie Kwan, Certified NC
     <h2>Christmas &amp; Birthday Gift &mdash; Online Coaching</h2>
     <p>
       Give online coaching as a Christmas or birthday gift: 3 hours for
-      $70 (regularly $81). A gift for yourself or a loved one &mdash;
+      $75 (regularly $81). A gift for yourself or a loved one &mdash;
       learn from anywhere, at your own pace.
     </p>
     <p>
