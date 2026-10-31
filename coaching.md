@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Coaching
+title: "Pickleball Coaching in Kanata & Ottawa with Louie Kwan"
 permalink: /coaching/
+excerpt: "Pickleball coaching in Kanata and Ottawa with Louie Kwan, Certified NCCP Coach — private lessons, group clinics, tournament prep, and online coaching at $25/hour."
 ---
 <section class="wrap section-narrow">
   <div class="program">
@@ -92,9 +93,13 @@ permalink: /coaching/
   <div class="program">
     <h2>About Me</h2>
     <ul>
-      <li>Certified NCCP Coach</li>
+      <li>Louie Kwan &mdash; Certified NCCP Coach</li>
       <li>Active member of the Ottawa pickleball community</li>
     </ul>
+    <p>
+      Louie Kwan coaches in Kanata and Ottawa &mdash; see
+      <a href="{{ '/kanata-ottawa-pickleball-lessons/' | relative_url }}">pickleball lessons in Kanata &amp; Ottawa</a>.
+    </p>
   </div>
 
   <hr style="border: none; border-top: 2px solid #E2E6DC; margin: 2rem 0;">

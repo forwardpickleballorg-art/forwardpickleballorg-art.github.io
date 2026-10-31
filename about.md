@@ -2,11 +2,12 @@
 layout: default
 title: About
 permalink: /about/
+excerpt: "About Louie Kwan and Dive Forward Pickleball — pickleball coaching in Kanata and Ottawa."
 ---
 <section class="wrap section-narrow">
   <h1>About Dive Forward Pickleball</h1>
   <p>
-    Dive Forward Pickleball was started with one goal: Forward Together
+    Dive Forward Pickleball was started by Louie Kwan with one goal: Forward Together
     through purposeful drilling, modern coaching, and a supportive
     community. We work with beginners learning the rules and the kitchen
     line, intermediate players trying to break through a rating plateau,

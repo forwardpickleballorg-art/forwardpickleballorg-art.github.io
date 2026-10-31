@@ -21,7 +21,18 @@
     "url": "https://forwardpickleball.org/",
     "logo": "https://forwardpickleball.org/assets/images/logo.svg",
     "email": "forward.pickleball.org@gmail.com",
-    "description": {{ site.description | jsonify }}
+    "description": {{ site.description | jsonify }},
+    "founder": {
+      "@type": "Person",
+      "name": "Louie Kwan",
+      "jobTitle": "Pickleball Coach",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kanata",
+        "addressRegion": "Ontario",
+        "addressCountry": "CA"
+      }
+    }
   }
   </script>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
