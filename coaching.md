@@ -72,8 +72,8 @@ permalink: /coaching/
     <h2>Online Coaching</h2>
     <p>
       An affordable way to learn, from anywhere. Online coaching is
-      available now &mdash; a lower-cost option for players who want
-      coaching without travelling to a court.
+      available now at $25/hour &mdash; a lower-cost option for players
+      who want coaching without travelling to a court.
     </p>
   </div>
 
@@ -84,6 +84,7 @@ permalink: /coaching/
       <li>Semi-Private Lesson &mdash; $50/hour total ($25 each)</li>
       <li>Group of 3 &mdash; $20/person/hour</li>
       <li>Group of 4 &mdash; $15/person/hour</li>
+      <li>Online Coaching &mdash; $25/hour</li>
     </ul>
     <p>Court fee not included.</p>
     <h3>Lessons can focus on:</h3>
