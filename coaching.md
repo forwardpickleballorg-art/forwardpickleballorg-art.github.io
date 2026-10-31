@@ -98,7 +98,7 @@ excerpt: "Pickleball coaching in Kanata and Ottawa with Louie Kwan, Certified NC
     </ul>
     <p>
       See
-      <a href="{{ '/kanata-ottawa-pickleball-lessons/' | relative_url }}">pickleball lessons in Kanata &amp; Ottawa</a>.
+      <a href="{{ '/kanata-ottawa-pickleball-lessons/' | relative_url }}">pickleball lessons in Kanata</a>.
     </p>
   </div>
 
