@@ -161,6 +161,18 @@ excerpt: "Pickleball coaching in Kanata and Ottawa with Louie Kwan, Certified NC
     </p>
   </div>
 
+  <div class="program">
+    <h2>Student Story</h2>
+    <p>
+      From beginner to winning in 3.5 open play &mdash; in just 5 to 7
+      hours of training. One student&rsquo;s journey from holding a paddle
+      for the first time to winning games at the 3.5 level.
+    </p>
+    <p>
+      <a href="{{ '/coaching/beginner-to-winning-3-5-open-play/' | relative_url }}">Read the student story &rarr;</a>
+    </p>
+  </div>
+
   <div class="cta-inline">
     <a class="button" href="{{ '/contact/' | relative_url }}">Book a Session</a>
   </div>
