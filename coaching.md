@@ -36,6 +36,19 @@ excerpt: "Pickleball coaching in Kanata and Ottawa with Louie Kwan, Certified NC
   </div>
 
   <div class="program">
+    <h2>Pickleball Assessment Session</h2>
+    <p>
+      A comprehensive, professional evaluation that pinpoints your exact
+      technical and tactical strengths &mdash; and gives you a clear,
+      step-by-step blueprint for your development, with actionable feedback,
+      specific drills, and strategic advice.
+    </p>
+    <p>
+      <a href="{{ '/coaching/pickleball-assessment-session/' | relative_url }}">Learn about the assessment session &rarr;</a>
+    </p>
+  </div>
+
+  <div class="program">
     <h2>Group Clinics</h2>
     <p>
       Small-group sessions (3&ndash;6 players) built around a single theme:
