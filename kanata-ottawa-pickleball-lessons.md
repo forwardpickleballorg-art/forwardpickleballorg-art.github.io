@@ -43,24 +43,3 @@ excerpt: "Pickleball lessons in Kanata and Ottawa with Louie Kwan, Certified NCC
     <a class="button" href="{{ '/contact/' | relative_url }}">Book a Session</a>
   </div>
 </section>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Louie Kwan",
-  "jobTitle": "Pickleball Coach",
-  "worksFor": {
-    "@type": "Organization",
-    "name": "Forward Pickleball",
-    "url": "https://forwardpickleball.org/"
-  },
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Kanata",
-    "addressRegion": "Ontario",
-    "addressCountry": "CA"
-  },
-  "areaServed": ["Kanata", "Ottawa"]
-}
-</script>

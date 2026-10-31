@@ -15,24 +15,42 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Forward Pickleball",
-    "alternateName": "Dive Forward Pickleball",
-    "url": "https://forwardpickleball.org/",
-    "logo": "https://forwardpickleball.org/assets/images/logo.svg",
-    "email": "forward.pickleball.org@gmail.com",
-    "description": {{ site.description | jsonify }},
-    "founder": {
-      "@type": "Person",
-      "name": "Louie Kwan",
-      "jobTitle": "Pickleball Coach",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Kanata",
-        "addressRegion": "Ontario",
-        "addressCountry": "CA"
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://forwardpickleball.org/#organization",
+        "name": "Forward Pickleball",
+        "alternateName": "Dive Forward Pickleball",
+        "url": "https://forwardpickleball.org/",
+        "logo": "https://forwardpickleball.org/assets/images/logo.svg",
+        "email": "forward.pickleball.org@gmail.com",
+        "description": {{ site.description | jsonify }},
+        "founder": { "@id": "https://forwardpickleball.org/#louie-kwan" },
+        "areaServed": [
+          { "@type": "City", "name": "Kanata" },
+          { "@type": "City", "name": "Ottawa" }
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://forwardpickleball.org/#louie-kwan",
+        "name": "Louie Kwan",
+        "jobTitle": "Pickleball Coach",
+        "description": "Certified NCCP pickleball coach in Kanata and Ottawa.",
+        "worksFor": { "@id": "https://forwardpickleball.org/#organization" },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Kanata",
+          "addressRegion": "Ontario",
+          "addressCountry": "CA"
+        },
+        "areaServed": [
+          { "@type": "City", "name": "Kanata" },
+          { "@type": "City", "name": "Ottawa" }
+        ],
+        "knowsAbout": ["Pickleball coaching", "Doubles strategy", "Pickleball drills"]
       }
-    }
+    ]
   }
   </script>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
