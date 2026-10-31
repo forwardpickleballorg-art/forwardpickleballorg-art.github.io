@@ -124,6 +124,9 @@ excerpt: "Pickleball coaching in Kanata and Ottawa with Louie Kwan, Certified NC
       available now at $27/hour &mdash; a lower-cost option for players
       who want coaching without travelling to a court.
     </p>
+    <p>
+      <a href="{{ '/coaching/online-coaching/' | relative_url }}">Learn about online coaching &rarr;</a>
+    </p>
   </div>
 
   <div class="program">
