@@ -113,6 +113,18 @@ excerpt: "Pickleball coaching in Kanata and Ottawa with Louie Kwan, Certified NC
     </p>
   </div>
 
+  <div class="program">
+    <h2>Christmas Gift &mdash; Online Coaching</h2>
+    <p>
+      Give online coaching this Christmas: 3 hours for $70 (regularly
+      $75). A gift for yourself or a loved one &mdash; learn from
+      anywhere, at your own pace.
+    </p>
+    <p>
+      <a href="{{ '/contact/' | relative_url }}">Get in touch to buy the gift &rarr;</a>
+    </p>
+  </div>
+
   <hr style="border: none; border-top: 2px solid #E2E6DC; margin: 2rem 0;">
 
   <p style="text-align: center; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #3F7D5C; margin: 0;">Must-Try Coach's Corner Clinic — Learn It, Practise It Yourself</p>
