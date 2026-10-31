@@ -137,7 +137,7 @@ excerpt: "Pickleball coaching in Kanata and Ottawa with Louie Kwan, Certified NC
       learn from anywhere, at your own pace.
     </p>
     <p>
-      <a href="{{ '/contact/' | relative_url }}">Get in touch to buy the gift &rarr;</a>
+      <a href="{{ '/coaching/christmas-birthday-gift/' | relative_url }}">Learn about the gift &rarr;</a>
     </p>
   </div>
 
