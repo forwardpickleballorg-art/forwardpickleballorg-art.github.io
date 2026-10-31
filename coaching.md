@@ -69,15 +69,6 @@ permalink: /coaching/
   </div>
 
   <div class="program">
-    <h2>Online Coaching</h2>
-    <p>
-      An affordable way to learn, from anywhere. Online coaching is
-      available now at $25/hour &mdash; a lower-cost option for players
-      who want coaching without travelling to a court.
-    </p>
-  </div>
-
-  <div class="program">
     <h2>Lesson Rates</h2>
     <ul>
       <li>Private Lesson &mdash; $45/hour</li>
@@ -104,6 +95,17 @@ permalink: /coaching/
       <li>Certified NCCP Coach</li>
       <li>Active member of the Ottawa pickleball community</li>
     </ul>
+  </div>
+
+  <hr style="border: none; border-top: 2px solid #E2E6DC; margin: 2rem 0;">
+
+  <div class="program">
+    <h2>Online Coaching</h2>
+    <p>
+      An affordable way to learn, from anywhere. Online coaching is
+      available now at $25/hour &mdash; a lower-cost option for players
+      who want coaching without travelling to a court.
+    </p>
   </div>
 
   <hr style="border: none; border-top: 2px solid #E2E6DC; margin: 2rem 0;">
