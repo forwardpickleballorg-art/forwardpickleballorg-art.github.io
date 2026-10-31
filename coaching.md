@@ -69,6 +69,15 @@ permalink: /coaching/
   </div>
 
   <div class="program">
+    <h2>Online Coaching</h2>
+    <p>
+      An affordable way to learn, from anywhere. Online coaching is
+      available now &mdash; a lower-cost option for players who want
+      coaching without travelling to a court.
+    </p>
+  </div>
+
+  <div class="program">
     <h2>Lesson Rates</h2>
     <ul>
       <li>Private Lesson &mdash; $45/hour</li>
