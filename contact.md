@@ -8,7 +8,7 @@ excerpt: "Book a pickleball lesson with Louie Kwan in Kanata and Ottawa — priv
   <h1>Book a Lesson</h1>
   <p class="lead">
     Tell us a little about your game and what you're working on, and we'll
-    follow up to schedule your session with Louie Kwan in Kanata or Ottawa.
+    follow up to schedule your session in Kanata or Ottawa.
   </p>
   <div class="contact-details">
     <p><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
