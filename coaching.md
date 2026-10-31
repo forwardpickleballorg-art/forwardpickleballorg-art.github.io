@@ -162,7 +162,7 @@ excerpt: "Pickleball coaching in Kanata and Ottawa with Louie Kwan, Certified NC
   </div>
 
   <div class="program">
-    <h2>Student Story</h2>
+    <h2>📊 Student Story 📊</h2>
     <p>
       From beginner to winning in 3.5 open play &mdash; in just 5 to 7
       hours of training. One student&rsquo;s journey from holding a paddle
