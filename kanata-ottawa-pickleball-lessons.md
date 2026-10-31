@@ -28,7 +28,7 @@ excerpt: "Pickleball lessons in Kanata with Louie Kwan, Certified NCCP Coach. Pr
     <li>Semi-Private Lesson &mdash; $50/hour total ($25 each)</li>
     <li>Group of 3 &mdash; $20/person/hour</li>
     <li>Group of 4 &mdash; $15/person/hour</li>
-    <li>Online Coaching &mdash; $25/hour</li>
+    <li>Online Coaching &mdash; $27/hour</li>
   </ul>
   <p>Court fee not included.</p>
 

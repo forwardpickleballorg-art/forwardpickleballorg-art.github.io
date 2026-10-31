@@ -2,7 +2,7 @@
 layout: default
 title: "Pickleball Coaching in Kanata & Ottawa with Louie Kwan"
 permalink: /coaching/
-excerpt: "Pickleball coaching in Kanata and Ottawa with Louie Kwan, Certified NCCP Coach — private lessons, group clinics, tournament prep, and online coaching at $25/hour."
+excerpt: "Pickleball coaching in Kanata and Ottawa with Louie Kwan, Certified NCCP Coach — private lessons, group clinics, tournament prep, and online coaching at $27/hour."
 ---
 <section class="wrap section-narrow">
   <div class="program">
@@ -76,7 +76,7 @@ excerpt: "Pickleball coaching in Kanata and Ottawa with Louie Kwan, Certified NC
       <li>Semi-Private Lesson &mdash; $50/hour total ($25 each)</li>
       <li>Group of 3 &mdash; $20/person/hour</li>
       <li>Group of 4 &mdash; $15/person/hour</li>
-      <li>Online Coaching &mdash; $25/hour</li>
+      <li>Online Coaching &mdash; $27/hour</li>
     </ul>
     <p>Court fee not included.</p>
     <h3>Lessons can focus on:</h3>
@@ -108,7 +108,7 @@ excerpt: "Pickleball coaching in Kanata and Ottawa with Louie Kwan, Certified NC
     <h2>Online Coaching</h2>
     <p>
       An affordable way to learn, from anywhere. Online coaching is
-      available now at $25/hour &mdash; a lower-cost option for players
+      available now at $27/hour &mdash; a lower-cost option for players
       who want coaching without travelling to a court.
     </p>
   </div>
@@ -117,7 +117,7 @@ excerpt: "Pickleball coaching in Kanata and Ottawa with Louie Kwan, Certified NC
     <h2>Christmas &amp; Birthday Gift &mdash; Online Coaching</h2>
     <p>
       Give online coaching as a Christmas or birthday gift: 3 hours for
-      $70 (regularly $75). A gift for yourself or a loved one &mdash;
+      $70 (regularly $81). A gift for yourself or a loved one &mdash;
       learn from anywhere, at your own pace.
     </p>
     <p>
