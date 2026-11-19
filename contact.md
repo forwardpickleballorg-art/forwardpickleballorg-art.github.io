@@ -10,6 +10,9 @@ excerpt: "Book a pickleball lesson with Louie Kwan in Kanata and Ottawa — priv
     Tell us a little about your game and what you're working on, and we'll
     follow up to schedule your session in Kanata or Ottawa.
   </p>
+  <p>
+    <a class="button" href="https://book.squareup.com/appointments/4vbzvdrfpam3if/location/LD4FT05F46Q2D/services">Book online coaching — $27/hour, Saturdays 9–11 AM</a>
+  </p>
   <div class="contact-details">
     <p><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
     <p><strong>Location:</strong> {{ site.address }}</p>
